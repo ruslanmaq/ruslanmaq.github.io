@@ -70,6 +70,44 @@ const projects = [
             solution: "Created a modern, responsive monitoring dashboard with WebSocket-based real-time updates and customizable alerting.",
             impact: "Provided enterprise-grade monitoring capabilities at zero licensing cost, with sub-second metric refresh rates."
         }
+    },    
+    {
+        title: "MyShop E-Commerce Platform",
+        tagline: "Enterprise Multi-Tenant Shopping Platform",
+        description: "A comprehensive Angular-based e-commerce platform with MLM capabilities, featuring advanced promotions engine, wallet integration, Stripe payments, multi-language support, and subscription management.",
+        highlights: [
+            "Advanced promotion engine with 10+ discount types (BOGO, bundles, flash sales)",
+            "Digital wallet integration with MoMoney API for commission payments",
+            "Stripe subscription system with automated recurring payments",
+            "Multi-language support (6 languages) with i18n",
+            "Multi-tenant architecture with admin, distributor, and customer portals",
+            "Comprehensive security implementation with encryption and audit logging"
+        ],
+        technologies: [
+            "Angular 20",
+            "TypeScript",
+            ".NET Core",
+            "Material-UI",
+            "Stripe API",
+            "MoMoney API",
+            "SQL Server",
+            "Chart.js",
+            "i18n",
+            "Docker",
+            "Nginx"
+        ],
+        metrics: [
+            { value: "6", label: "Languages" },
+            { value: "10+", label: "Promotion Types" },
+            { value: "Multi-Tenant", label: "Architecture" }
+        ],
+        githubUrl: "https://github.com/ruslanmaq/ShoppingCart",
+        liveUrl: null,
+        features: {
+            problem: "MLM businesses needed a comprehensive e-commerce solution with commission tracking, flexible promotions, and automated subscription management.",
+            solution: "Built a full-featured platform with digital wallet integration, sophisticated promotion rules, Stripe subscriptions, and multi-language support for global operations.",
+            impact: "Enabled automated commission processing, recurring revenue streams, and complex promotional campaigns with enterprise-grade security and performance."
+        }
     },
     {
         title: "LinkedIn Job Scraper",
