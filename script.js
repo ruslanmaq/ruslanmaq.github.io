@@ -76,6 +76,7 @@ const projects = [
         tagline: "Enterprise Multi-Tenant Shopping Platform",
         description: "A comprehensive Angular-based e-commerce platform with MLM capabilities, featuring advanced promotions engine, wallet integration, Stripe payments, multi-language support, and subscription management.",
         highlights: [
+            "JWT authentication with ASP.NET Core Identity for secure user management",
             "Advanced promotion engine with 10+ discount types (BOGO, bundles, flash sales)",
             "Digital wallet integration with MoMoney API for commission payments",
             "Stripe subscription system with automated recurring payments",
@@ -87,6 +88,8 @@ const projects = [
             "Angular 20",
             "TypeScript",
             ".NET Core",
+            "ASP.NET Identity",
+            "JWT",
             "Material-UI",
             "Stripe API",
             "MoMoney API",
@@ -101,7 +104,7 @@ const projects = [
             { value: "10+", label: "Promotion Types" },
             { value: "Multi-Tenant", label: "Architecture" }
         ],
-        githubUrl: "https://github.com/ruslanmaq/ShoppingCart",
+        githubUrl: "https://github.com/ruslanmaq/MyShop",
         liveUrl: null,
         features: {
             problem: "MLM businesses needed a comprehensive e-commerce solution with commission tracking, flexible promotions, and automated subscription management.",
