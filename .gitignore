@@ -1,0 +1,23 @@
+# Ignore all markdown files
+*.md
+
+# Except these specific files
+!README.md
+!DD_Architecture.md
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+nul
+
+# Claude Code configuration
+.claude/
