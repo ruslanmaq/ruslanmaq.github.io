@@ -113,35 +113,41 @@ const projects = [
         }
     },
     {
-        title: "LinkedIn Job Scraper",
-        tagline: "Intelligent Job Search Automation",
-        description: "A Python-based automation tool for searching LinkedIn job postings with advanced filtering by technology stack, location, and remote work options.",
+        title: "HeavyIMS - Heavy Industry Management System",
+        tagline: "Production-Ready DDD Enterprise Management Platform",
+        description: "A comprehensive .NET backend solution demonstrating Domain-Driven Design architecture for managing work orders, technicians, inventory, and equipment maintenance in heavy industry facilities.",
         highlights: [
-            "Advanced filtering by keywords, location, and tech stack",
-            "Remote job identification and filtering",
-            "Technology stack matching (React, Python, .NET, etc.)",
-            "JSON export for data analysis and tracking",
-            "Direct LinkedIn job posting links",
-            "Customizable search parameters"
+            "Domain-Driven Design with aggregate boundaries and domain events",
+            "Multi-warehouse inventory management with automated low-stock alerts",
+            "Real-time workload balancing and technician scheduling",
+            "Value objects (Money, Address, EquipmentIdentifier, DateRange)",
+            "Unit of Work pattern with transactional consistency",
+            "Event-driven architecture for cross-aggregate communication",
+            "56/57 passing tests with real SQL Server integration tests"
         ],
         technologies: [
-            "Python",
-            "BeautifulSoup",
-            "Requests",
-            "JSON",
-            "Web Scraping"
+            ".NET 9.0",
+            "C# 13",
+            "Entity Framework Core 9",
+            "SQL Server",
+            "Redis",
+            "xUnit",
+            "Moq",
+            "FluentAssertions",
+            "Docker",
+            "GitHub Actions"
         ],
         metrics: [
-            { value: "Multi-filter", label: "Search" },
-            { value: "JSON", label: "Export" },
-            { value: "Tech Stack", label: "Matching" }
+            { value: "DDD", label: "Architecture" },
+            { value: "4", label: "Layers" },
+            { value: "56/57", label: "Tests Passing" }
         ],
-        githubUrl: "https://github.com/ruslanmaq/linkedin-job-scraper",
+        githubUrl: "https://github.com/ruslanmaq/HeavyIMS",
         liveUrl: null,
         features: {
-            problem: "Job seekers spent hours manually filtering LinkedIn postings for specific technologies and remote opportunities.",
-            solution: "Automated the search and filtering process with intelligent tech stack matching and data export capabilities.",
-            impact: "Reduced job search time by 80%, enabling targeted applications to relevant positions only."
+            problem: "Heavy industry facilities faced technician shortages, inventory delays, manual paperwork, and inefficient scheduling causing costly equipment downtime.",
+            solution: "Built a production-ready DDD platform with multi-warehouse inventory tracking, automated alerts, workload balancing, and digital workflows.",
+            impact: "Enabled enterprise-grade work order management with domain events, value objects, and aggregate boundaries following DDD best practices."
         }
     }
 ];
