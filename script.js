@@ -128,7 +128,7 @@ const projects = [
             "Value objects (Money, Address, EquipmentIdentifier, DateRange)",
             "Unit of Work pattern with transactional consistency",
             "Event-driven architecture for cross-aggregate communication",
-            "56/57 passing tests with real SQL Server integration tests"
+            "Comprehensive automated testing with SQL Server integration tests"
         ],
         technologies: [
             ".NET 9.0",
@@ -145,7 +145,7 @@ const projects = [
         metrics: [
             { value: "DDD", label: "Architecture" },
             { value: "4", label: "Layers" },
-            { value: "56/57", label: "Tests Passing" }
+            { value: "Automated", label: "Testing" }
         ],
         githubUrl: "https://github.com/ruslanmaq/HeavyIMS",
         liveUrl: null,
