@@ -4,39 +4,41 @@
 const projects = [
     {
         title: "AI Reporting Platform",
-        tagline: "Enterprise AI-Powered Business Intelligence",
-        description: "A sophisticated reporting platform that transforms natural language queries into actionable insights using Azure OpenAI, RAG (Retrieval-Augmented Generation), and .NET 9 Minimal APIs.",
+        tagline: "Enterprise-Grade Self-Service Analytics with Multi-Layer Security",
+        description: "An intelligent, database-agnostic reporting platform with 5-layer security architecture, achieving 40-75% cost savings through hybrid template matching. Features self-learning schema intelligence agent and RAG-powered natural language to SQL conversion with zero code deployment.",
         highlights: [
-            "Natural language to SQL query generation using GPT-4",
-            "RAG integration with vector embeddings for schema-aware AI",
-            "Dynamic SQL validation with database-driven correction rules",
-            "Real-time chat interface with markdown-formatted responses",
-            "Export capabilities (Excel, PDF, CSV) with rich visualizations",
-            "Clean Architecture with API, Core, and Infrastructure layers"
+            "Hybrid template matching system - 40-75% Azure OpenAI cost savings within 6 months",
+            "5-layer security architecture - OWASP, SOC 2, ISO 27001 compliant",
+            "Database-agnostic design - zero code changes for any SQL Server database",
+            "Schema Intelligence Agent - self-improving system with auto-suggested corrections",
+            "RAG integration with in-memory vector store for schema-aware SQL generation",
+            "Rate limiting with IP blocking after 5 security violations",
+            "Dynamic SQL validation - blocks injection attacks, 30-second query timeouts",
+            "Natural language to SQL with markdown-formatted insights"
         ],
         technologies: [
-            ".NET 9",
+            ".NET 9 Minimal APIs",
             "C#",
-            "Azure OpenAI",
-            "RAG",
+            "Azure OpenAI GPT-4",
+            "RAG (Vector Embeddings)",
             "Angular 20",
             "SQL Server",
-            "Entity Framework",
+            "Entity Framework Core 9",
             "Dapper",
             "Docker",
             "TypeScript"
         ],
         metrics: [
-            { value: "3", label: "Layers" },
-            { value: "GPT-4", label: "AI Model" },
-            { value: "Real-time", label: "Processing" }
+            { value: "40-75%", label: "Cost Savings" },
+            { value: "5-Layer", label: "Security" },
+            { value: "Zero-Code", label: "DB Integration" }
         ],
         githubUrl: "https://github.com/ruslanmaq/AI.ReportingPlatform",
         liveUrl: null,
         features: {
-            problem: "Business users struggled to query databases without SQL knowledge, creating bottlenecks and dependency on technical teams.",
-            solution: "Built an AI-powered platform that translates natural language questions into accurate SQL queries, validated and corrected using database-driven rules.",
-            impact: "Reduced query turnaround time from hours to seconds, enabling self-service analytics for non-technical users."
+            problem: "Organizations needed secure, cost-effective AI analytics that could integrate with any database without expensive customization, while preventing SQL injection attacks and controlling cloud AI costs.",
+            solution: "Engineered database-agnostic platform with 5-layer security (SQL validation, rate limiting, read-only DB user, query timeouts, AI prompt engineering), hybrid template matching for cost optimization, and self-learning schema intelligence agent that auto-improves accuracy over time.",
+            impact: "Achieved 40-75% reduction in Azure OpenAI costs, enterprise-grade security compliance (OWASP, SOC 2, ISO 27001), plug-and-play deployment to any SQL Server database, and self-service analytics with sub-second response times for cached queries."
         }
     },
     {
@@ -73,43 +75,46 @@ const projects = [
     },    
     {
         title: "MyShop E-Commerce Platform",
-        tagline: "Enterprise Multi-Tenant Shopping Platform",
-        description: "A comprehensive Angular-based e-commerce platform with MLM capabilities, featuring advanced promotions engine, wallet integration, Stripe payments, multi-language support, and subscription management.",
+        tagline: "Enterprise Multi-Tenant Shopping Platform with DDD Architecture",
+        description: "A high-performance Angular-based e-commerce platform with Domain-Driven Design backend, featuring dynamic MLM compensation engine, advanced performance optimization, and enterprise-grade security. Achieved 31% bundle size reduction and implemented UI-configurable business rules without code deployment.",
         highlights: [
-            "JWT authentication with ASP.NET Core Identity for secure user management",
+            "Domain-Driven Design with dynamic compensation plan configuration system",
+            "Rule engine with JSON-based expressions for UI-configurable business logic",
+            "Plan versioning & A/B testing - compare compensation plans before implementation",
+            "31% bundle size reduction (1.57 MB → 1.08 MB) with 54% CSS optimization",
+            "OnPush change detection on 62% of components with memory leak prevention",
+            "JWT authentication with ASP.NET Core Identity and environment-based security",
             "Advanced promotion engine with 10+ discount types (BOGO, bundles, flash sales)",
-            "Digital wallet integration with MoMoney API for commission payments",
-            "Stripe subscription system with automated recurring payments",
-            "Multi-language support (6 languages) with i18n",
-            "Multi-tenant architecture with admin, distributor, and customer portals",
-            "Comprehensive security implementation with encryption and audit logging"
+            "Digital wallet integration for automated commission payments",
+            "Stripe subscription system with recurring payments and multi-language support (6 languages)"
         ],
         technologies: [
             "Angular 20",
             "TypeScript",
-            ".NET Core",
+            ".NET Core 9",
+            "DDD Patterns",
             "ASP.NET Identity",
             "JWT",
             "Material-UI",
             "Stripe API",
-            "MoMoney API",
             "SQL Server",
+            "Dapper",
             "Chart.js",
             "i18n",
             "Docker",
             "Nginx"
         ],
         metrics: [
-            { value: "6", label: "Languages" },
-            { value: "10+", label: "Promotion Types" },
-            { value: "Multi-Tenant", label: "Architecture" }
+            { value: "31%", label: "Bundle Reduction" },
+            { value: "DDD", label: "Architecture" },
+            { value: "Zero-Code", label: "Plan Changes" }
         ],
         githubUrl: "https://github.com/ruslanmaq/MyShop",
         liveUrl: null,
         features: {
-            problem: "MLM businesses needed a comprehensive e-commerce solution with commission tracking, flexible promotions, and automated subscription management.",
-            solution: "Built a full-featured platform with digital wallet integration, sophisticated promotion rules, Stripe subscriptions, and multi-language support for global operations.",
-            impact: "Enabled automated commission processing, recurring revenue streams, and complex promotional campaigns with enterprise-grade security and performance."
+            problem: "MLM businesses needed a scalable e-commerce platform with configurable compensation plans, high performance, and the ability to A/B test plan changes without developer intervention or code deployment.",
+            solution: "Implemented Domain-Driven Design architecture with dynamic rule engine, enabling business users to configure compensation plans via UI. Optimized performance with OnPush strategy, bundle optimization, and memory leak prevention across 82 components.",
+            impact: "Enabled zero-deployment plan configuration, 40-60% reduction in change detection cycles, A/B testing of compensation strategies, and enterprise-grade performance with automated commission processing and recurring revenue management."
         }
     },
     {
